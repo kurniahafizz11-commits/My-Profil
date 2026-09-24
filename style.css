@@ -259,6 +259,7 @@ footer{
     
     .wrapper {
         flex-direction: column;
+        background-color: rgba(22, 31, 48, 0.5);
     }
     
     .sidebar {
@@ -269,9 +270,22 @@ footer{
     .main-content {
         padding: 24px;
     }
+
+    .avatar-box {
+        background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+    }
     
     .hero-card {
         padding: 24px;
+        background: linear-gradient(135deg, #101c33 0%, #064073 100%);
+    }
+
+    .data-card{
+        background-color: var(--bg-card);
+    }
+
+    .lead-text{
+        color: #cbd5e1;
     }
     
     .hero-card h1 {
