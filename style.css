@@ -266,6 +266,11 @@ footer{
         width: 100%;
         padding: 30px 20px;
     }
+
+    .badge {
+        background: rgba(0, 240, 255, 0.15);
+        color: var(--accent-cyan);
+    }   
     
     .main-content {
         padding: 24px;
